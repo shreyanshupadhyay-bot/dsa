@@ -8,9 +8,7 @@ class Solution {
                 flag = true;
 
             }
-            else{
-                continue;
-            }
+            
         }
         return flag;
     }
