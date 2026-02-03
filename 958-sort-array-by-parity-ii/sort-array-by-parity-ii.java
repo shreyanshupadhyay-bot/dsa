@@ -1,8 +1,7 @@
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
         int n = nums.length;
-        int even =0;
-        int odd=1;
+        int even =0, odd=1;
         int arr[] = new int[n];
         for(int i =0;i<n;i++){
             if(nums[i]%2==0){
