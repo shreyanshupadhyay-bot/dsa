@@ -6,9 +6,7 @@ class Solution {
             char ch = s.charAt(i);
             arr[indices[i]] = ch;
         }
-        for(int j=0;j<indices.length;j++){
-            ans += arr[j];
-        }
-        return ans;
+       
+        return new String(arr);
     }
 }
